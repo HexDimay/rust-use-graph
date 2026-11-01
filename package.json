@@ -3,6 +3,9 @@
   "displayName": "Rust Use Graph",
   "description": "File dependency graph for Rust based on use and mod declarations",
   "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/HexDimay/rust-use-graph"
+  },
   "author": { "name": "0xDimay", "email": "HexDimay@yandex.ru", "url": "https://github.com/HexDimay" },
   "license": "Apache-2.0",
   "publisher": "publisher",
