@@ -1,0 +1,33 @@
+{
+  "name": "rust-use-graph",
+  "displayName": "Rust Use Graph",
+  "description": "File dependency graph for Rust based on use and mod declarations",
+  "version": "0.1.0",
+  "author": { "name": "0xDimay", "email": "HexDimay@yandex.ru", "url": "https://github.com/HexDimay" },
+  "license": "Apache-2.0",
+  "publisher": "publisher",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": ["Visualization", "Programming Languages"],
+  "activationEvents": ["onCommand:rustUseGraph.show"],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "rustUseGraph.show",
+        "title": "Rust: Show use/mod Graph"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.85.0",
+    "typescript": "^5.4.0"
+  }
+}
