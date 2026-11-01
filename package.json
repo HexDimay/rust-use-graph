@@ -9,7 +9,7 @@
   },
   "author": { "name": "0xDimay", "email": "HexDimay@yandex.ru", "url": "https://github.com/HexDimay" },
   "license": "Apache-2.0",
-  "publisher": "publisher",
+  "publisher": "0xDimay",
   "engines": {
     "vscode": "^1.85.0"
   },
