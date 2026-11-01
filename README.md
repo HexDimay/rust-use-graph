@@ -1,5 +1,8 @@
 # Rust Use Graph
 
+_libc.rs graph_
+![](./assets/libc.jpg)
+
 A Visual Studio Code extension that builds and visualizes a **file dependency graph for Rust projects** based on `use` and `mod` declarations found in `.rs` source files.
 
 > Open the command palette and run **"Rust: Show use/mod Graph"** to render an interactive graph of how your Rust files and modules reference one another.

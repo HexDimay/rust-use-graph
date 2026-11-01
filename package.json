@@ -3,6 +3,7 @@
   "displayName": "Rust Use Graph",
   "description": "File dependency graph for Rust based on use and mod declarations",
   "version": "0.1.0",
+  "icon": "./assets/logo.png",
   "repository": {
     "url": "https://github.com/HexDimay/rust-use-graph"
   },
